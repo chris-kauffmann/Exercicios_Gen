@@ -6,7 +6,7 @@ public class ValoresIntIfElse {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
+		//
 		int valor1,valor2,valor3;
 		
 		Scanner leia = new Scanner(System.in);
