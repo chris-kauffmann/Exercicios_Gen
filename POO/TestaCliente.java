@@ -6,10 +6,9 @@ public class TestaCliente {
 
 	public static void main(String[] args) {
 		
-		Cliente client1 = new Cliente ("Luis Guerreiro","luisg.mestredojava@generation.com",1234567891);
+		Cliente client1 = new Cliente("Luis Roberto","luisgmestredojava@generation.com",25,123456789,987654321);
 		
-		
-		client1.imprimirInfo();
+        client1.imprimirInfo();
 		
 		System.out.println("\n Alteração no email: ");
 		
@@ -21,6 +20,8 @@ public class TestaCliente {
 		client1.setNomeCliente("Luis Roberto Guerreiro");
 		client1.imprimirInfo();
 
+		
+		
 	}
 
 }
