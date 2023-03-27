@@ -17,6 +17,16 @@ public class TestaGame {
 		
 		products1.setTipoRoupa("Camiseta TLOU Look for the light");
 		products1.imprimirInfo();
+		
+		JogoProduto products2 = new JogoProduto ("Playstation 4","The Last of Us Part II","Controle sem fio","Funko Ellie","Camiseta Sony","Mídia Fisica",2020);
+		
+		products2.imprimirInfoJ();
+		
+		ConsoleProduto products3 = new ConsoleProduto ("Playstation", "Days Gone"," Controle sem fio","Monopoly Gamer SM","Camiseta Nintendo",
+				"Playstation 4","Edição Limitada Prata");
+		
+		products3.imprimirInfoC();
+		
 	}
 
 }
